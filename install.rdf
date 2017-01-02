@@ -5,7 +5,7 @@
 		<em:unpack>true</em:unpack>
 		<em:id>closeTabsToRight@babobski.com</em:id>
 		<em:name>Close Tabs to the right</em:name>
-		<em:version>1.0</em:version>
+		<em:version>1.0.1</em:version>
 		<em:description>Add a menu item in the file tab context-menu, for closing the tabs on the right.</em:description>
 		<em:creator>Bob de Haas</em:creator>
 		<em:homepageURL></em:homepageURL>
