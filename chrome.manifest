@@ -1,0 +1,2 @@
+content closeTabsToRight content/
+overlay chrome://komodo/content/komodo.xul chrome://closeTabsToRight/content/overlay.xul

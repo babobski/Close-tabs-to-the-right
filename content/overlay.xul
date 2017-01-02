@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="less://komodo/skin/global/global.less" type="text/css"?>
+<overlay id="closeTabsToRightOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://closeTabsToRight/content/overlay.js" />
+	
+	<commandset id="allcommands">
+		<command id="Tasks:close_tabs_to_the_right" oncommand="extensions.closeTabsToRight.closeTabsToTheRight();"/>
+	</commandset>
+	
+	<menupopup id="tabContextMenu">
+		<menuitem id="menu_close_files_to_the_right"
+				insertafter="buffertab-context-close-others"
+				label="Close tabs to the right"
+				observes="Tasks:close_tabs_to_the_right"
+				class="menu-iconic-wide" />
+	</menupopup>
+</overlay>
+
