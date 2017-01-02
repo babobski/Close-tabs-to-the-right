@@ -11,7 +11,15 @@
 	<menupopup id="tabContextMenu">
 		<menuitem id="menu_close_files_to_the_right"
 				insertafter="buffertab-context-close-others"
-				label="Close tabs to the right"
+				label="Close Files To The Right"
+				observes="Tasks:close_tabs_to_the_right"
+				class="menu-iconic-wide" />
+	</menupopup>
+	
+	<menupopup id="close_menupopup">
+		<menuitem id="mainmenu_close_files_to_the_right"
+				insertafter="close_other_tabs_menuitem"
+				label="Close Files To The Right"
 				observes="Tasks:close_tabs_to_the_right"
 				class="menu-iconic-wide" />
 	</menupopup>
